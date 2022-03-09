@@ -61,3 +61,24 @@ for(let i = 0; i<ejercicio2.length;i++){
     console.log ( ejercicio2[i]. nombre  + " puedes pasar a la fiesta")
   }
 }
+
+//RESOLUCIÓN 3
+//Serie Fibonacci primeros 50 números
+let numfibo =1
+let numfiboA = 0;
+let numfiboB = 0;
+//imprime
+
+console.log(numfibo);
+numfiboA =numfibo;
+for(let i = 0; i<50; i++){
+  numfibo =numfiboA + numfiboB,
+  //imprime el número de acuerdo a la sucesión.
+  console.log(numfibo);
+  numfiboA = numfiboB,
+  numfiboB = numfibo;
+}
+if(numbfiboB=0){
+
+}
+
